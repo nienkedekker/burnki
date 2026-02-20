@@ -18,7 +18,9 @@ I initially made this add-on just for me, but I figured it might be useful to ot
 
 ### From AnkiWeb
 
-*(Coming soon. @me write this please)*
+1. In Anki, go to Tools → Add-ons → Get Add-ons
+2. Paste the code `510814931` and click OK
+3. Restart Anki
 
 ### Manual Install
 
