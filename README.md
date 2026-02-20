@@ -1,4 +1,4 @@
-# Burnki ⭐
+# ⭐ Burnki
 
 Burnki is an Anki add-on that automatically syncs your burned [WaniKani](https://www.wanikani.com/) items into an Anki deck.
 
@@ -10,7 +10,7 @@ I initially made this add-on just for me, but I figured it might be useful to ot
 
 - Syncs all burned radicals, kanji, and vocabulary from your WaniKani account
 - Automatic and manual sync on Anki startup (configurable)
-- Incremental sync — only fetches new burns after the first run
+- Incremental sync (only fetches new burns after the first run)
 - Downloads pronunciation audio for vocabulary cards
 - Includes your personal meaning/reading notes and synonyms from WaniKani
 
@@ -18,7 +18,7 @@ I initially made this add-on just for me, but I figured it might be useful to ot
 
 ### From AnkiWeb
 
-*(Coming soon)*
+*(Coming soon. @me write this please)*
 
 ### Manual Install
 
@@ -61,7 +61,7 @@ The back shows meanings, readings, audio (vocabulary), context sentences, and yo
 ### Requirements
 
 - Anki 2.1.50 or later
-- Python 3.9+ (bundled with Anki)
+- Python 3.9+
 
 ### Local Development
 
