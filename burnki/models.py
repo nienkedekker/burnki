@@ -28,7 +28,7 @@ FIELDS = [
 FRONT_TEMPLATE = """\
 <div class="card-front">
   <div class="characters">{{Characters}}</div>
-  <div class="type-badge {{SubjectType}}">{{SubjectType}}</div>
+  <div class="type-badge" data-type="{{SubjectType}}">{{SubjectType}}</div>
 </div>
 """
 
@@ -68,16 +68,15 @@ CSS = """\
   padding: 4px 16px;
   border-radius: 4px;
   font-size: 0.8em;
-  text-transform: capitalize;
   color: #fff;
   background: #888;
 }
 
 /* WaniKani colors */
-.type-badge.radical { background: #00aaff; }
-.type-badge.kanji { background: #ff00aa; }
-.type-badge.vocabulary,
-.type-badge.kana_vocabulary { background: #aa00ff; }
+.type-badge[data-type="Radical"] { background: #00aaff; }
+.type-badge[data-type="Kanji"] { background: #ff00aa; }
+.type-badge[data-type="Vocabulary"],
+.type-badge[data-type="Kana vocabulary"] { background: #aa00ff; }
 
 hr#answer {
   border: none;

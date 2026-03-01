@@ -156,7 +156,7 @@ def fetch_sync_data(
             note = NoteData(
                 subject_id=subject.id,
                 characters=_build_characters(subject),
-                subject_type=subject.object,
+                subject_type=subject.object.replace("_", " ").capitalize(),
                 meanings=_format_meanings(subject),
                 readings=_format_readings(subject),
                 user_meanings=", ".join(mat.meaning_synonyms) if mat else "",
